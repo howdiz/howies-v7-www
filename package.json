@@ -1,13 +1,16 @@
 {
-  "name": "howies-v7-www",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "edgio:dev": "edgio dev",
+    "edgio:build": "edgio build",
+    "edgio:deploy": "edgio deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "name": "howies-v7-www",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "autoprefixer": "10.4.14",
     "next": "13.4.1",
@@ -15,5 +18,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^7.0.12",
+    "@edgio/core": "^7.0.12",
+    "@edgio/devtools": "^7.0.12",
+    "@edgio/next": "^7.0.12",
+    "@edgio/prefetch": "^7.0.12",
+    "@edgio/react": "^7.0.12"
   }
 }
