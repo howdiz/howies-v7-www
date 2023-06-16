@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import {mainContent, links, socialLinks} from './links.js';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 
 export default function Home() {
   return (
@@ -13,13 +16,9 @@ export default function Home() {
         <p>{mainContent.bio3}</p>
         <p>{mainContent.bio4}</p>
          <ul className="social-links__list">
-          {socialLinks.map((link) => (
-            <li className="social-links__link">
-              <a href={link.url}>
-                <img name={link.icon} width="36px" height="36px" />
-              </a>
-            </li>
-          ))}
+          <li><SocialIcon url="https://twitter.com/howdiz" /></li>
+          <li><SocialIcon url="https://www.linkedin.com/in/howardross" /></li>
+          <li><SocialIcon url="https://github.com/howdiz" /></li>
         </ul>
       </div>
     </article>
