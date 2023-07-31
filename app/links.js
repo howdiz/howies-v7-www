@@ -1,7 +1,6 @@
 export const mainContent = {
   imgSrc: `profile.png`,
   name: `Howie Ross`,
-  tagline: `Product @edgio, twin dad, coffee geek`,
   bio1: `I’ve been building products on the internet for 20 years and leading teams for 10 years.`,
   bio2: `I have worked for startups, agencies, and financial services companies, building websites, apps, e-commerce systems, and, cloud / edge platforms.`,
   bio3: `I've also lectured for the UX/IxD Masters program at Thomas Jefferson University and spoke at conferences, meetups, and boot camps.`,

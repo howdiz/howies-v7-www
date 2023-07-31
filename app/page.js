@@ -10,7 +10,7 @@ export default function Home() {
       <div className="top__content">
         <Image unoptimized='true' priority='true' className="profile__img" width="256" height="256" src="/profile.png" alt={`Profile image of ${mainContent.name}`} />
         <h1>{mainContent.name}</h1>
-        <h2>{mainContent.tagline}</h2>
+        <h2>Product <a href="https://edg.io">@edgio</a>, twin dad, coffee geek</h2>
         <p>{mainContent.bio1}</p>
         <p>{mainContent.bio2}</p>
         <p>{mainContent.bio3}</p>
