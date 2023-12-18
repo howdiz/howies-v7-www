@@ -17,7 +17,7 @@ export default function Home() {
         <p>{mainContent.bio4}</p>
          <ul className="social-links__list">
           <li><SocialIcon url="https://twitter.com/howdiz" /></li>
-          <li><SocialIcon url="https://www.linkedin.com/in/howardross" /></li>
+          <li><SocialIcon url="https://www.linkedin.com/in/howieross" /></li>
           <li><SocialIcon url="https://github.com/howdiz" /></li>
         </ul>
       </div>
