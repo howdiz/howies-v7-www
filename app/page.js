@@ -16,9 +16,9 @@ export default function Home() {
         <p>{mainContent.bio3}</p>
         <p>{mainContent.bio4}</p>
          <ul className="social-links__list">
-          <li><SocialIcon url="https://twitter.com/howdiz" /></li>
-          <li><SocialIcon url="https://www.linkedin.com/in/howieross" /></li>
-          <li><SocialIcon url="https://github.com/howdiz" /></li>
+          <a href="https://twitter.com/howdiz"><li class="nes-icon twitter is-large"/></a>
+          <a href="https://www.linkedin.com/in/howieross" ><li class="nes-icon linkedin is-large"/></a>
+          <a href="https://github.com/howdiz" ><li class="nes-icon github is-large"/></a>
         </ul>
       </div>
     </article>
